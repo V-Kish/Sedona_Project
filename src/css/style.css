@@ -56,7 +56,7 @@ body {
 
 .main__city--image img {
   width: 100%;
-  height: auto; }
+  height: 100%; }
 
 .main__city--text {
   background-color: #81b3d2;
@@ -92,3 +92,77 @@ body {
   text-transform: uppercase;
   font-size: 14px;
   margin-bottom: 30px; }
+
+/*########   MAIN  SECOND block SEDONA ########*/
+.main__advantages {
+  display: flex;
+  flex-shrink: 0;
+  min-height: 330px;
+  text-transform: uppercase; }
+  .main__advantages img {
+    display: table-cell;
+    margin: 60px auto 30px; }
+  .main__advantages p {
+    text-align: center;
+    color: #b3b3b3; }
+  .main__advantages h2 {
+    text-align: center;
+    font-size: 21px; }
+
+.main__advantages--houses {
+  width: 400px; }
+
+.main__advantages--food {
+  width: 400px; }
+
+.main__advantages--souvenirs {
+  width: 400px; }
+
+/*########   MAIN  third block SEDONA ########*/
+.main__advantages--text {
+  min-height: 260px;
+  display: flex;
+  flex-shrink: 0;
+  text-transform: uppercase;
+  background-color: #eee;
+  text-align: center; }
+  .main__advantages--text h2 {
+    margin-top: 50px;
+    margin-bottom: 15px; }
+  .main__advantages--text p {
+    margin-bottom: 30px; }
+
+.main__advantages--area {
+  width: 400px; }
+  .main__advantages--area p {
+    color: #b3b3b3; }
+
+.main__advantages--road {
+  width: 400px; }
+  .main__advantages--road p {
+    color: #b3b3b3; }
+
+.main__advantages--tourists {
+  width: 400px; }
+  .main__advantages--tourists p {
+    color: #b3b3b3; }
+
+.main__advantages--style::before {
+  content: " ";
+  width: 15px;
+  height: 1px;
+  background-color: #b3b3b3;
+  display: inline-flex;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: -2px; }
+
+.main__advantages--style::after {
+  content: " ";
+  width: 15px;
+  height: 1px;
+  background-color: #b3b3b3;
+  display: inline-flex;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: -2px; }
